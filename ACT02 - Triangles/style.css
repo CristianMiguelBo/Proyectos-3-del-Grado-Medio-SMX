@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+*{
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+}
+body {
+    background-image: url(img/triangles.png);
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+main {
+    background-color: white;
+    width: 80%;
+    padding: 10px 20px 30px 20px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px rgba(0,0,0,0.8);
+}
+section {
+    display: flex;
+    justify-content: space-around;
+}
+#analitza {
+    background-color: #13706C;
+    color: white;
+    padding: 5px 20px;
+    border: 0;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 25px;
+}
+#resultat div {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 25%;
+    height: 30px;
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>The Lock</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="../lib/jquery-3.2.1.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Open the lock</h1>
+    <h2>you only have <span id="attempts">11</span> attempts left</h2>
+    <div id="lock" class="fl w40">
+        <img src="images/lock.svg"/>
+        <div>
+            <input id="n0" type="number" maxlength="1" min="1" max="9" value="1"/>
+            <input id="n1" type="number" maxlength="1" min="1" max="9" value="1"/>
+            <input id="n2" type="number" maxlength="1" min="1" max="9" value="1"/>
+        </div>
+        <div id="check">
+            Check it
+        </div>
+    </div>
+    <div id="tries" class="fl w60">
+    </div>
+</body>
+</html>

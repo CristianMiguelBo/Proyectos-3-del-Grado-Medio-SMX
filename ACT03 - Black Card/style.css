@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+* {
+    font-family: 'Zen Antique Soft', serif;
+}
+body {
+    background-image: url(img/golden.png);
+    background-color: black;
+    font-size: 130%;
+}
+main {
+    position: fixed;
+    display: flex;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    align-items: stretch;
+    justify-content: space-between;
+    background-color: #000000aa;
+}
+main div {
+    background-color: #000000cc;
+    padding: 20px;
+    color: #ffffffee;
+    box-shadow: 0 0 10px #A5812E;
+    text-align: center;
+    position: relative;
+}
+img {
+    width: 50%;
+}
+h2 {
+    border-bottom: 1px solid #ffffffee;
+    padding: 5px;
+}
+input, select {
+    background-color: black;
+    border: 1px solid #A5812E;
+    color: #ffffffee;
+    font-size: 120%;
+    padding: 5px;
+}
+input[type="button"] {
+    margin: 5px;
+    background-color: #A5812E;
+    color: black;
+    padding: 5px 10px;
+}
+#concepte {
+    width: 400px;
+}
+#valor {
+    width: 100px;
+}
+table {
+    width: 100%;
+    border: 1px solid #ffffff66;
+    border-collapse: collapse;
+}
+th {
+    background-color: #A5812E;
+    color:black;
+}
+th, td {
+    border: 1px solid #ffffff66;
+    padding: 5px;
+}
+th:first-child, td:first-child {
+    text-align: left;
+}
+table tr td:first-child() {
+    text-align: left;
+}
+h3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #A5812E;
+    padding: 10px 0;
+    color: black;
+}
