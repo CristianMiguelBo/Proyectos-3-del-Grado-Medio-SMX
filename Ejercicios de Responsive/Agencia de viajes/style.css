@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;900&display=swap');
+/*
+    Estils
+*/
+* {
+    font-family: 'Titillium Web';
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.m0a {
+    margin: 0 auto;
+}
+.hybrid {
+    width: 95%;
+    max-width: 1200px;
+    min-width: 500px;
+}
+.inner {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid none;
+}
+.w70 {
+    width: 70%;
+}
+.w30 {
+    width: 30%;
+}
+.w33 {
+    width: 33.333%;
+}
+.w25 {
+    width: 25%;
+}
+/*
+    Header
+*/
+header {
+    background-image: url(images/slide.jpg);
+    background-size: cover;
+}
+header img {
+    text-align: left;
+    margin: 20px;
+}
+
+header div nav li {
+    list-style-type: none;
+    justify-content: space-around; 
+    display: inline-block;
+    padding: 25px; 
+    color: white;
+}
+header div {
+    justify-content: space-between;
+}
+header div div div {
+    background-color: rgba(0, 0, 0, 0.37);
+}
+header div div div h1 {
+    padding: 50px 50px 20px 50px;
+    margin: 0;
+    color: white;
+}
+header div div div input[type="button"] {
+    margin: 0 50px 20px 50px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    color: black;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+header div {
+    margin-bottom: 40px;
+}
+/*
+    Main
+*/
+main div#txt p {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+/*
+    We organize your trip
+*/
+section#we {
+    background-color: #E3E3E3;
+}
+section#we div  {
+    text-align: center;
+    justify-content: center;
+}
+/*
+    Popular
+*/
+div#img1 {
+    background-image: url(images/dest01.jpg);
+}
+div#img2 {
+    background-image: url(images/dest02.jpg);
+}
+div#img3 {
+    background-image: url(images/dest03.jpg);
+}
+div#img3, div#img1, div#img2 {
+    background-position: center;
+    background-size:cover ;
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+} 
+#titulopopu {
+    text-align: right;
+}
+section#popu div div div  {
+    height: 500px;
+}
+section#popu div div div {
+    margin: 10px;
+}
+section#popu div div div p.txt1 {
+    margin: 250px 0;
+}
+section#popu div div div h2 {
+    margin-top: 175px;
+}
+/*
+    Articles
+*/
+section#articles {
+    background-color: #E3E3E3;
+}
+section#articles div div div img{
+    width: 100%;
+}
+section#articles div div div p, section#articles div div div h3 {
+    margin: 0;
+}
+/*
+    Footer
+*/
+footer ul li {
+    list-style-image:url(images/equal.jpg) ;
+}
+footer div#txt2 p {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+@media screen and (max-width: 1024px) {
+   header .w33 {
+       text-align: center;
+       width: 50%;
+       margin: 0 auto;
+   }
+    .w25 {
+        width: 50%;
+    }
+    br {
+        display: none;
+    }
+}
+@media screen and (max-width: 800px) {
+   #cen .w33 {
+       width: 100%;
+   }
+   nav {
+       display: none;
+   }
+   header div img {
+        text-align: center; 
+        margin: 0 auto;
+        padding: 10px;
+    }
+    header div div div h1 {
+        padding: 0;
+        margin: 50px 20px 10px;
+    }
+}

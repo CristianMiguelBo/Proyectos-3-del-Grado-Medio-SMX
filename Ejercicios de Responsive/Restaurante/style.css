@@ -1,0 +1,175 @@
+/*
+    Estils
+*/
+.m0a {
+    margin: 0 auto;
+}
+.hybrid {
+    width: 90%;
+    max-width: 1200px;
+    min-width: 320px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.w25 {
+    width: 25%;
+}
+.w16 {
+    width: 16.666%;
+}
+.w33 {
+    width: 33.333%;
+}
+.inner {
+    margin: 10px;
+    padding: 10px;
+    border: 1px none none;
+}
+body {
+    background-image: url(images/home_recipes_bg.jpg);
+    padding: 20px 0;
+}
+main, header, footer {
+    background-color: #FCF9EF;
+}
+div#shadow {
+    box-shadow: 0px 0px 10px white;
+}
+/*
+    Header
+*/
+#article {
+    text-align: center;
+}
+header img {
+    padding: 10px;
+}
+header {
+    text-align: center;
+}
+header div nav{
+    background-color: #7C5D3D;
+    color: white;
+    width: 100%;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+nav ul {
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+section#titulo {
+    background-image: url(images/home_recipes_slide_1.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    color: white;
+    padding: 50px;
+    background-position: center;
+}
+section#titulo h1 {
+    padding-top: 100px;
+}
+section#titulo input[type="button"] {
+    margin-bottom: 100px;
+    padding: 8px 15px;
+    border-radius:6px;
+    background-color: #59BE84;
+    border: 0px solid black;
+    color: white;
+}
+section#titulo h1 {
+    font-size: 40px;
+}
+section#titulo h3 {
+    font-size: 20px;
+}
+/*
+    Main
+*/
+section#s1 h2 {
+    background-image: url(images/home_recipes_heading_pattern.png);
+    background-position: bottom;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+div.w25 {
+    text-align: center;
+}
+div.w25 div h3 {
+    color: #7C5D3D;
+}
+div.w25 div p {
+    color: #999
+}
+div#img {
+    background-color: rgba(153, 153, 153, 0.205);
+}
+div#img div.row div.w16 div.inner img{
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+/*
+    Footer
+*/
+footer {
+    background-color: #5e4c3a;
+    color:white;
+}
+div#segona {
+    text-align: right;
+}
+div#primera {
+    text-align: left;
+}
+
+@media screen and (max-width: 700px) {
+    .w25 {
+        width: 50%;
+    }
+    .w16 {
+        width: 33.333%;
+    }
+    #article {
+        text-align: center;
+    }
+    section#titulo input[type="button"] {
+        margin-bottom: 0;
+    }
+    section#titulo {
+        padding-top: 0;
+    }
+}
+@media screen and (max-width: 500px) {
+    header div nav {
+        display: none;
+    }
+    section#titulo input[type="button"] {
+        margin-bottom: 5px;
+    }
+    section#titulo {
+        padding: 10px;
+    }
+    section#titulo h1 {
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .w33 {
+        width: 100%;
+    }
+    footer div {
+        text-align: left;
+    }
+}

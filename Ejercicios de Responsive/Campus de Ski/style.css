@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto+Slab:wght@300&display=swap');
+
+/*
+    Estils
+*/
+.m0a {
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.inner {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid none;
+}
+
+body {
+    font-family: 'Roboto Slab';
+    font-weight: 300;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+}
+
+.hybrid {
+    width: 90%;
+    max-width: 1400px;
+    min-width: 500px;
+}
+.w25 {
+    width: 25%;
+}
+
+/*
+    header
+*/
+header div {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+}
+
+header div h2 {
+    padding: 0 0 150px 0;
+    margin: 0;
+    font-size: 35px;
+    font-family: 'Roboto Slab';
+}
+
+header div h1 {
+    margin: 0;
+    padding: 150px 0 0 0;
+    font-size: 60px;
+}
+
+header div h1, header div h2 {
+    color: white;
+    text-shadow: 0 0 8px black;
+}
+
+/*
+    Aside
+*/
+.fixl {
+    width: 250px;
+    left: 0;
+    background-color: #2F4378;
+    top: 0;
+    bottom: 0;
+    padding: 20px;
+    position: fixed;
+    text-align: center;
+}
+
+div#llistag {
+    background-color: #4F504E;
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+    left: 0;
+    top: 0;
+    color: white;
+    margin: 270px 0 0 0;
+}
+
+li {
+    border: 1px dotted rgba(255, 255, 255, 0.603);
+    border-right: none;
+    border-left: none;
+    padding: 10px;
+    transition: 0.25s ease all;
+    list-style-type: none;
+}
+
+div {
+    padding: 0 auto;
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0;
+}
+
+div#redes {
+    display: flex;
+    bottom: 0;
+    position: absolute;
+    margin: 0 0 0 60px;
+}
+
+div#redes div div {
+    padding: 0px;
+}
+
+li:hover {
+    background-color: blue;
+    transition: 0.25s ease all;
+}
+
+div#logo img {
+    width: 80%;
+    padding: 20px 0px;
+}
+
+/*
+    main
+*/
+header, main, section {
+    margin-left: 150px;
+}
+
+div#menu h2 {
+    border-bottom: 8px solid #2F4378;
+    margin: 30px 20px;
+    font-size: 40px;
+    border-radius: 2px;
+}
+
+h3 {
+    color: #2F4378;
+    text-transform: uppercase;
+}
+
+div#article article.w25 div.inner img {
+    width: 100%;
+}
+
+div#article article.w25 div.inner {
+    border-bottom: 2px solid #2F4378;
+}
+
+div#article {
+    margin: 0;
+}
+
+@media screen and (max-width: 960px) {
+    div#redes {
+        display: none;
+    }
+
+    .fixl {
+        height: 150px;
+        width: 100%;
+        background-color: #2F4378;
+        padding: 0;       
+        text-align: center;
+        position: fixed;
+        padding-left: 0;
+    }
+
+    div#llistag {
+        background-color: #4F504E;
+        position: static;
+        color: white;
+        border-top: 1px solid rgba(255, 255, 255, 0.603);
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    li {
+        border: none;
+        padding: 10px;
+        transition: 0.25s ease all;
+        list-style-type: none;
+        display: inline-block;
+    }
+
+    li:hover {
+        color: black;
+        background-color: #2F4378;
+        transition: 0.25s ease all;
+    }
+
+    div#logo img {
+        width:100px;
+        padding: 0px 0px;
+    }
+    
+    header, main, section {
+        margin-top: 150px;
+        margin-left: 0;
+    }
+    main section, main {
+        margin: 0;
+    }
+    #article {
+        flex-wrap: wrap;
+    }
+    .w25 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    div#llistag {
+        display: none;
+    }
+    .w25 {
+        width: 100%;
+    }
+    .fixl {
+        height: auto;
+        bottom: auto;
+    }
+    header, main, section {
+        margin-top: auto;
+        margin-left: 0;
+    }
+}
+
+@media print {
+    #print {
+        display:block;
+        text-align: center;
+        font-size: 50px;
+    }
+    header, main, section, #llistag, .fixl {
+        display: none;
+    }
+}
