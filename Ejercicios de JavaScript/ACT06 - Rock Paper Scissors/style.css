@@ -1,0 +1,58 @@
+ @import url('https://fonts.googleapis.com/css?family=Oswald:500');
+
+body {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 150%;
+}
+.fl {
+    float:left;
+}
+.oa {
+    overflow: auto;
+}
+.w40 {
+    width: 40%;
+}
+.w20 {
+    width: 20%;
+}
+.choice {
+    border: 5px dashed #eee;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.explain {
+    margin-top: 100px;
+}
+.expopt {
+    display: inline-block;
+    height: 100px;
+    width: 70px;
+    margin-top: 20px;
+}
+.expopt span {
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    background-size: contain;
+}
+.rock {
+    background-image: url(images/rock.png);    
+}
+.paper {
+    background-image: url(images/paper.png);    
+}
+.scissors {
+    background-image: url(images/scissors.png);    
+}
